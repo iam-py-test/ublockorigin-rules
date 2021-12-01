@@ -636,7 +636,6 @@ twitch.tv##.prime-offers
 twitch.tv##.extension-view__iframe
 twitch.tv##.headliner-ad
 twitch.tv##.front-page-carousel
-twitch.tv##.extension-view__iframe
 
 ! U
 ubuntu.com##.cookie-policy
@@ -865,9 +864,6 @@ sha2sslchecker.com##.f-right
 ! 5/18/2020 https://askubuntu.com
 askubuntu.com###noscript-warning
 
-! 5/21/2020 https://serverfault.com
-serverfault.com###noscript-warning
-
 ! 5/22/2020 https://centminmod.com
 centminmod.com##.section-title > .col-md-9
 
@@ -880,9 +876,6 @@ henrik.dk##div.box_sponsor02
 
 ! 6/2/2020 https://shop.westerndigital.com
 shop.westerndigital.com##div.ng-scope.md\:h-auto.h-full.flex.relative.flex-col.lg\:cols-3.xs\:cols-4.cols-6:nth-of-type(3)
-
-! 6/2/2020 https://www.pricerunner.dk
-pricerunner.dk##._3YnaHq5Pmy
 
 ! https://mypdns.org/my-privacy-dns/issues/-/issues/915
 ||hcaptcha.com^$important
@@ -971,17 +964,8 @@ linuxquestions.org##td.page:nth-of-type(1) > table.tborder:nth-of-type(3)
 ! 5/9/2020 https://www.kingston.com
 kingston.com###email-signup-modal
 
-! 5/9/2020 https://www.tecmint.com
-tecmint.com###quickiebarpro
-
 ! https://mypdns.org/my-privacy-dns/issues/-/issues/581
 ||quotes.com^
-
-/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$script,third-party
-/^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$script,third-party
-||porndaa.com/sw.js$1p
-||fsphhbsklawjs.com^
-https://padsabz.com/5b/11/ec/5b11ec577f7ab76d9e3bf5af286eda00.js
 
 ##.push-subscription-prompt
 
@@ -1001,7 +985,6 @@ imdb.com##.contribute.article
 imdb.com##.recently-viewed
 imdb.com##.wtw-option-standalone
 imdb.com##.promoted-watch-ad-link
-imdb.com##.promoted-watch-ad
 imdb.com##.buybox__modal
 imdb.com##.videoPreview--autoPlaybackOnce.videoPreview
 imdb.com###bio_pro_link
@@ -1070,7 +1053,7 @@ ipaddressguide.com##.text-center.col-md-3
 /^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$script,third-party
 ||porndaa.com/sw.js$1p
 ||fsphhbsklawjs.com^
-https://padsabz.com/5b/11/ec/5b11ec577f7ab76d9e3bf5af286eda00.js
+||padsabz.com/5b/11/ec/5b11ec577f7ab76d9e3bf5af286eda00.js
 
 ! 2/6/2020 https://www.rosehosting.com
 rosehosting.com##.active.essb-followme-bottom.essb-followme
@@ -1357,7 +1340,6 @@ bluehouse.is###PopupOverLay_WA_0
 ||player.pulsemediatv.com^$third-party,$domain=~bwin.sport
 !||api.cxense.com/public/widget/data?$script
 
-||googleapis.com^$important
 ||googleoptimize.com
 
 ! 10/12/2019 https://taenk.dk/
@@ -1454,7 +1436,6 @@ google-analytics_ga.js$script
 
 ! W
 ||wct.link^$important
-/wp-content/plugins/uk-cookie-consent/*$script,important
 wordpress.org##.apps-mobile
 
 ! Y
